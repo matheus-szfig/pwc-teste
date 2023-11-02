@@ -1,0 +1,24 @@
+{
+  "name": "pwc-teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "index.js",
+  "pkg": {
+    "assets": [ "node_modules/**/*", "modules/**/*" ],
+    "targets": [ "node18-macos-x64", "node18-win-x64" ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/matheus-szfig/pwc-teste.git"
+  },
+  "author": "Matheus Figueiredo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheus-szfig/pwc-teste/issues"
+  },
+  "homepage": "https://github.com/matheus-szfig/pwc-teste#readme"
+}
